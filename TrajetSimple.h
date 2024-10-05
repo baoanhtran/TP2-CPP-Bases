@@ -3,7 +3,7 @@
 
 #include "Trajet.h"
 
-enum transport {AUTO, BUS, TRAIN, AVION, BATEAU};
+enum transport {AUTO, BUS, AVION, TRAIN, BATEAU};
 
 class TrajetSimple : public Trajet
 {

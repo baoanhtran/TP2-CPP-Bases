@@ -10,9 +10,6 @@ class TrajetCompose : public Trajet
 public:
     TrajetCompose(char* prov, char* dest, ConteneurTrajet* conteneur);
     virtual void Afficher() const;
-    virtual char* GetProvenance() const;
-    virtual char* GetDestination() const;
-
 
 protected:
     ConteneurTrajet* conteneur;
