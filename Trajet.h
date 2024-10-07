@@ -4,7 +4,7 @@
 class Trajet
 {
 public:
-    virtual void Afficher() const;
+    virtual void Afficher() const = 0;
 };
 
 #endif // TRAJET_H

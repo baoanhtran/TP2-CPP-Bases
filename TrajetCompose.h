@@ -8,7 +8,7 @@ class TrajetCompose : public Trajet
 {
 
 public:
-    TrajetCompose(char* prov, char* dest, ConteneurTrajet* conteneur);
+    TrajetCompose(ConteneurTrajet* conteneur);
     virtual void Afficher() const;
 
 protected:

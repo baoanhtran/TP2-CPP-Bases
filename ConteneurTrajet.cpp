@@ -2,6 +2,7 @@ using namespace std;
 #include <iostream>
 
 #include "ConteneurTrajet.h"
+#include "Trajet.h"
 
 ConteneurTrajet::ConteneurTrajet(int taille)
 {

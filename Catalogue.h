@@ -15,6 +15,7 @@ public:
     virtual ~Catalogue();
     virtual void Afficher() const;
     virtual void SaisirTrajetSimple();
+    virtual void SaisirTrajetCompose();
     // virtual Trajet* Rechercher(char* prov, char* dest) const;
 protected:
     ConteneurTrajet* conteneur;

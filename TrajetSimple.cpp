@@ -17,7 +17,7 @@ TrajetSimple::TrajetSimple(const char* depart, const char* arrivee, const transp
 
 void TrajetSimple::Afficher() const
 {
-    cout << "Trajet simple de " << provenance << " à " << destination << " en ";
+    cout << "Trajet simple de " << provenance << " a " << destination << " en ";
     switch (moyenTransport)
     {
         case AUTO:

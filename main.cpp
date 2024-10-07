@@ -20,9 +20,9 @@ int main() {
                 cout << "Au revoir" << endl;
                 return 0;
             case 1:
-                cout << "\t1. Ajouter un trajet simple" << endl;
-                cout << "\t2. Ajouter un trajet composé" << endl;
-                cout << "\t0. Retour" << endl;
+                cout << "1. Ajouter un trajet simple" << endl;
+                cout << "2. Ajouter un trajet compose" << endl;
+                cout << "0. Retour" << endl;
                 cout << "Votre choix : ";
                 cin >> choix;
                 switch (choix) {
@@ -32,7 +32,7 @@ int main() {
                         catalogue.SaisirTrajetSimple();
                         break;
                     case 2:
-                        cout << "Ajouter un trajet composé" << endl;
+                        catalogue.SaisirTrajetCompose();
                         break;
                     default:
                         cout << "Choix invalide" << endl;
@@ -40,7 +40,7 @@ int main() {
                 }
                 break;
             case 2:
-                cout << "Afficher les trajets" << endl;
+                catalogue.Afficher();
                 break;
             case 3:
                 cout << "Rechercher un trajet" << endl;
