@@ -10,7 +10,7 @@ public:
     ConteneurTrajet(int taille);
     virtual ~ConteneurTrajet();
     virtual bool Ajouter(Trajet* trajet);
-    virtual bool Ajuster(int delta);
+    // virtual bool Ajuster(int delta);
     virtual Trajet** GetTrajets() const;
     virtual int GetLongueurCourante() const;
     virtual int GetLongueurMax() const;

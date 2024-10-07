@@ -9,7 +9,7 @@ class TrajetSimple : public Trajet
 {
 
 public:
-    TrajetSimple(char* prov, char* dest, transport moyen);
+    TrajetSimple(const char* prov, const char* dest, transport moyen);
     virtual void Afficher() const;
     virtual char* GetProvenance() const;
     virtual char* GetDestination() const;
