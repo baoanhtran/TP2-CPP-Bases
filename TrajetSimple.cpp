@@ -48,3 +48,9 @@ char* TrajetSimple::GetDestination() const
 {
     return destination;
 }
+
+TrajetSimple::~TrajetSimple()
+{
+    delete[] provenance;
+    delete[] destination;
+}

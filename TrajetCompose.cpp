@@ -17,3 +17,8 @@ void TrajetCompose::Afficher() const
         trajets[i]->Afficher();
     }
 }
+
+TrajetCompose::~TrajetCompose()
+{
+    delete conteneur;
+}

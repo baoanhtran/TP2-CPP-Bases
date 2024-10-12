@@ -13,6 +13,7 @@ public:
     virtual void Afficher() const;
     virtual char* GetProvenance() const;
     virtual char* GetDestination() const;
+    virtual ~TrajetSimple();
 protected:
     char* provenance;
     char* destination;
